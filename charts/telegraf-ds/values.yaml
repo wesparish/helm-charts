@@ -99,6 +99,8 @@ config:
     logfile: ""
     hostname: "$HOSTNAME"
     omit_hostname: false
+  inputs: ~
+  #  - docker_log:
   outputs:
     - influxdb:
         urls:
